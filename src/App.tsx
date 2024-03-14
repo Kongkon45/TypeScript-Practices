@@ -1,5 +1,6 @@
 import React from 'react'
-import Post from './Components/Post'
+// import Post from './Components/Post'
+import ButtonStyle from './Components/ButtonStyle'
 // import Button from './Components/Button'
 // import UserDemo from './Components/userDemo'
 // import DataFetch from './Components/DataFetch'
@@ -38,6 +39,10 @@ import Post from './Components/Post'
 //   }
 // ]
 
+const btnStyle = {
+   color : "white",
+   background:"orange"
+  }
 const App = () => {
   return (
     <div>
@@ -47,7 +52,8 @@ const App = () => {
       {/* <UserDemo userDemo={userDemo}/> */}
       {/* <DataFetch status="success"/> */}
       {/* <Button>click me</Button> */}
-      <Post/>
+      {/* <Post/> */}
+      <ButtonStyle btnStyle={btnStyle}/>
     </div>
   )
 }
