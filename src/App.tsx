@@ -1,6 +1,8 @@
 import React from 'react'
+import Post from './Components/Post'
+// import Button from './Components/Button'
 // import UserDemo from './Components/userDemo'
-import DataFetch from './Components/DataFetch'
+// import DataFetch from './Components/DataFetch'
 // import User from './Components/User'
 // import Users from './Components/Users'
 
@@ -43,7 +45,9 @@ const App = () => {
       <User user={user1}/>
       <Users name="Kongkon" age={21} isRegistered={false} language={["bangla", "english"]}/> */}
       {/* <UserDemo userDemo={userDemo}/> */}
-      <DataFetch status="success"/>
+      {/* <DataFetch status="success"/> */}
+      {/* <Button>click me</Button> */}
+      <Post/>
     </div>
   )
 }
